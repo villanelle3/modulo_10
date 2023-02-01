@@ -164,19 +164,19 @@
             <form action="">
                 <div class="inputs">
                     <label for="name">Name</label>
-                    <input type="text" id="name" required>
+                    <input type="text" id="name" required name="name">
                 </div>
                 <div class="inputs">
                     <label for="tel">Phone Number</label>
-                    <input type="tel" id="tel">
+                    <input type="tel" id="tel" name="tel">
                 </div>
                 <div class="inputs">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" name="email">
                 </div>
                 <div class="inputs">
                     <label for="intere">Interested vehicle</label>
-                    <input type="text" id="intere">
+                    <input type="text" id="intere" name="intere">
                 </div>
                 <div class="inputs">
                     <label for="message">Message</label>
@@ -189,13 +189,29 @@
 
     <footer>
         <div class="container">
-            2023 &copy; New motors
+            <p>
+                2023 &copy; New motors
+            </p>
+            <ul>
+                <li>
+                    <a href="#"><img src="./Icones_M11/facebook.png" alt="Facebook"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./Icones_M11/instagram.png" alt="Instagram"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./Icones_M11/youtube.png" alt="Youtube"></a>
+                </li>
+            </ul>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script> <!--validação em portugues, retirar para validação em ingles-->
     <script src="./main.js"></script>  
 </body>
 </html>

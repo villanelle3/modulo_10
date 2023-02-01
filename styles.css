@@ -26,6 +26,9 @@ header{
     background-color: var(--shade4);
     padding-top: 16px;
     color: #fff;
+    position:sticky;
+    top: 0;
+    left:0;
 }
 
 header > .container{
@@ -162,4 +165,25 @@ form{
 
 form button{
     max-width: 120px;
+}
+
+footer{
+    background-color: var(--shade4);
+    color:white;
+}
+footer ul{
+    display: flex;
+}
+footer li{
+    list-style-type: none;
+    margin-left: 16px;
+}
+
+footer li img{
+    height: 32px;
+}
+
+footer .container{
+    justify-content: space-between;
+    align-items: center;
 }
